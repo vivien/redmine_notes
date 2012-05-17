@@ -1,0 +1,7 @@
+<% html_title 'Notes' %>
+
+<% @notes.each do |note| %>
+  <p>
+  <%= link_to note.file, {} %>:<%= link_to note.line, {} %> <%= note.text %>
+  </p>
+<% end %>

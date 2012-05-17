@@ -1,0 +1,21 @@
+= Notes
+
+This is a simple Redmine plugin using the "notes" gem to find annotations
+(TODO, etc.) in a project's repository.
+
+
+NOTE! This is still a quick and dirty draft, which aims to show the usage of
+"notes" as a library. It has many ways to be improved. Some of them might be:
+
+* Better support of Redmine different versions;
+* Make links to file, line, working;
+* Dynamically display notes (Ajax or something);
+* Being able to choose which annotations/paths to look for;
+* etc.
+
+== Installation
+
+Go to the vendor/plugins directory of your Redmine source, and clone the
+plugin's repository:
+
+    git clone git://github.com/v0n/redmine_notes.git
